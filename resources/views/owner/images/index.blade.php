@@ -15,6 +15,7 @@
                     </div>
   
                     <div class="flex flex-wrap">
+                      <div class="flex flex-wrap">
                       @foreach ($images as $image)
                         <div class="w-1/4 p-2 md:p-4">
                             <a href="{{ route('owner.images.edit', ['image' => $image->id])}}">
@@ -25,6 +26,7 @@
                             </a>
                         </div>
                       @endforeach
+                      </div>
                     </div>
   
                     {{ $images->links() }}
