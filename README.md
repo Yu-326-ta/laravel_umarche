@@ -2,6 +2,9 @@
 
 ## インストール方法
 
+##　インストール後の実施方法
+
+
 画像のダミーデータは
 public/imagesフォルダ内に
 sample1.jpg~sample6.jpgとして
