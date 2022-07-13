@@ -16,6 +16,7 @@
         <script src="{{ mix('js/app.js') }}" defer></script>
 
         <!-- Scripts -->
+        
     </head>
     <body>
         <header>
