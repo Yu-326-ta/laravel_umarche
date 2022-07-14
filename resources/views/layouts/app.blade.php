@@ -12,9 +12,10 @@
 
                 <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="/css/micromodal.css">
 
                 <!-- Scripts -->
-        <script src="{{ mix('js/app.js') }}" defer></script>
+        <script src="{{ asset('js/app.js') }}" defer></script>
         <!-- Scripts -->
     </head>
     

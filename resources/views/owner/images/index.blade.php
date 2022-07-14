@@ -14,7 +14,6 @@
                       <button onclick="location.href='{{ route('owner.images.create') }}'"class=" text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">新規登録する</button>
                     </div>
   
-                    <div class="flex flex-wrap">
                       <div class="flex flex-wrap">
                       @foreach ($images as $image)
                         <div class="w-1/4 p-2 md:p-4">
@@ -27,7 +26,6 @@
                         </div>
                       @endforeach
                       </div>
-                    </div>
   
                     {{ $images->links() }}
                 </div>
