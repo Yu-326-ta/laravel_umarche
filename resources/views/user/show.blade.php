@@ -65,6 +65,8 @@
                                 <div>
                                     <span class="title-font font-medium text-2xl text-gray-900">{{ number_format($product->price) }}</span><span class="text-sm text-gray-700">円（税込み）</span>
                                 </div>
+                                <form method="post" action="{{ route('user.cart.add')}}">
+                                    @csrf
                                 <div class="flex items-center">
                                     <span class="mr-3">数量</span>
                                         <div class="relative">
@@ -75,14 +77,14 @@
                                           </select>
                                         </div>
                                 </div>
-                                <button class="flex ml-auto text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded">カートに入れる</button>
-                               
+                                <button class="flex ml-auto text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded mt-4">カートに入れる</button>
+                                <input type="hidden" name="product_id" value="{{ $product->id }}">
+                              </form> 
                               </div>
                         </div>
                     </div>
                     <div class="border-t border-gray-400 my-8"></div>
                     <div class="mb-4 text-center">この商品を販売しているショップ</div>
-                    <div class="mb-4 text-center">おティンティン湧太専用風俗店初回無料無限抜き放題</div>
                     <div class="mb-4 text-center">{{ $product->shop->name }}</div>
                     <div class="mb-4 text-center">
                         @if($product->shop->filename !== null)
