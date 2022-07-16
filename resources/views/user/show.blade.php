@@ -82,6 +82,7 @@
                     </div>
                     <div class="border-t border-gray-400 my-8"></div>
                     <div class="mb-4 text-center">この商品を販売しているショップ</div>
+                    <div class="mb-4 text-center">おティンティン湧太専用風俗店初回無料無限抜き放題</div>
                     <div class="mb-4 text-center">{{ $product->shop->name }}</div>
                     <div class="mb-4 text-center">
                         @if($product->shop->filename !== null)
