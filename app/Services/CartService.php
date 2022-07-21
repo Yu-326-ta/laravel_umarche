@@ -4,6 +4,7 @@ namespace App\Services;
 use App\Models\Product;
 use App\Models\Cart;
 
+
 class CartService
 {
   public static function getItemsInCart($items)
@@ -28,9 +29,7 @@ class CartService
         
         array_push($products, $result);
     }
-     
-    dd($result);
-    
+         
     return $products;
 
   }
