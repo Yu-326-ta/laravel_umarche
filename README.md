@@ -1,5 +1,25 @@
 ## udemy laravel講座
 
+##デモ
+
+ログインアカウント
+| アカウント | メールアドレス | パスワード|
+----|----| ---|
+| 一般ユーザー | test@test.com | password123 |
+| オーナー　(url:/owner/login) | test1@test.com | password123|
+| 管理者　(url:/admin/login) | test@test.com | password|
+
+一般ユーザー画面
+
+![トップ画面](images/top.png)
+![カート画面](images/cart.png)
+![詳細画面](images/view.png)
+
+オーナー画面
+![店舗情報画面](images/shop.png)
+![店舗詳細画面](images/detail.png)
+![画像管理画面](images/image.png)
+
 ## ダウンロード
 git clone https://github.com/Yu-326-ta/laravel_umarche.git
 
