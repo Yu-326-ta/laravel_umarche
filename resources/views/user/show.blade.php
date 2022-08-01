@@ -101,6 +101,7 @@
             </div>
         </div>
     </div>
+    
 
     <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
         <div class="modal__overlay" tabindex="-1" data-micromodal-close>
