@@ -79,6 +79,7 @@
                                 </div>
                                 <button class="flex ml-auto text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded mt-4">カートに入れる</button>
                                 <input type="hidden" name="product_id" value="{{ $product->id }}">
+                                <button class="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded mt-4">お気に入り</button>
                               </form> 
                               </div>
                         </div>
@@ -100,6 +101,7 @@
             </div>
         </div>
     </div>
+    
 
     <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
         <div class="modal__overlay" tabindex="-1" data-micromodal-close>

@@ -39,6 +39,7 @@
                         <div class="my-2">
                             小計:{{ number_format($totalPrice)}}<span class="text-sm text-gray-700">円（税込み）</span>
                         </div>
+                        
                         <div>
                             <button onclick="location.href='{{ route('user.cart.checkout') }}'" class="flex ml-auto text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded mt-4">
                                 購入する
